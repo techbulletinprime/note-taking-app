@@ -18,4 +18,4 @@ This is web application, which provieds the functionality.<br>
 4.Add JSTL jar to your appache tomcat lib directory<br>
 
 <h2>Sample Screens</h2>
-![](index.jpeg)
+![](index.png)
