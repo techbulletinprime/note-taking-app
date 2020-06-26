@@ -93,28 +93,11 @@ padding : 50px 0;
       <div class="carousel-caption d-none d-md-block">
         <div class="banner-text">
             <h2>Note Taking Application</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <p>Take your note with you where ever you go,fast access, update,delet,add any time</p>
         </div>	
   </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="https://images.pexels.com/photos/7097/people-coffee-tea-meeting.jpg" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
-        <div class="banner-text">
-            <h2>Take Notes</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-        </div>	
-    </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
-        <div class="banner-text">
-            <h2>Store it</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-        </div>	
-    </div>
-  </div>
+
             </div>	   
 		    
 		</div>
