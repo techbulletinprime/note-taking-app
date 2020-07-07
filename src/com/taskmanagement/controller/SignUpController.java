@@ -62,7 +62,7 @@ public class SignUpController extends HttpServlet {
 		try {
 			dao.saveUser(user);
 			//dao.saveTask();
-			request.setAttribute("message", " Not able to Signup Register Again");
+			request.setAttribute("message", " Registered SuccessFully");
 		} catch (Exception e) {
 			request.setAttribute("message", " Not able to Signup Register Again");
 		}

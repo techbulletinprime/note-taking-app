@@ -1,6 +1,7 @@
 package com.taskmanagement.controller;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -29,11 +30,14 @@ public class TaskController extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
 	 *      response)
 	 */
+	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		try {
-			TaskDto dto=new TaskDto();
+			TaskDto dto = new TaskDto("1234", "Sample task 1", "rajan");
+
+
 			dto.setTaskDescription(request.getParameter("description"));
 			dto.setTaskid(request.getParameter("taskid"));
 			dto.setUserid(request.getParameter("userid"));

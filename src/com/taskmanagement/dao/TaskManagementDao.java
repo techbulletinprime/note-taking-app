@@ -126,7 +126,7 @@ public class TaskManagementDao {
 	}
 	public static void main(String[]args)throws Exception {
 		
-		TaskDto dto=new TaskDto();
+		TaskDto dto = new TaskDto("", "", "");
 		dto.setTaskDescription("Angular video need to be uploaded");
 		dto.setTaskid("123");
 		dto.setUserid("rajan");

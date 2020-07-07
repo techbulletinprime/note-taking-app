@@ -4,6 +4,13 @@ public class TaskDto {
 	private String taskid;
 	private String taskDescription;
 	String userid;
+
+	public TaskDto(String taskid, String taskDescription, String userid) {
+		super();
+		this.taskid = taskid;
+		this.taskDescription = taskDescription;
+		this.userid = userid;
+	}
 	public String getTaskid() {
 		return taskid;
 	}
